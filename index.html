@@ -49,6 +49,7 @@ referrerpolicy="no-referrer"
     <link rel="stylesheet" href="css/animate.css">
     <!-- fancybox  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="./fancybox/fancybox.css">
     <!-- style.css    -->
 
     <!-- backtotop  -->
@@ -689,9 +690,18 @@ referrerpolicy="no-referrer"
       });
     });
   </script>
+  <!-- fancybox -->
+  <!-- <script src="./fancybox/fancybox.esm.js"></script> -->
+  <script src="./fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      //
+    });    
+  </script>
 <!-- backttop  -->
   <script src="./js/util.js"></script>
   <script src="./js/maintop.js"></script>
+  <script src="./js/lightbox.min.js"></script>
 </body>
 
 </html>
