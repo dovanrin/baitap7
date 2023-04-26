@@ -977,18 +977,7 @@ color: #f55f8d;
     visibility: visible;
     opacity: 1;
   }
-  /* .text-replace {
-    overflow: hidden;
-    color: transparent;
-    text-indent: 100%;
-    white-space: nowrap;
-} */
-
-.cd-top--is-visible {
-    visibility: visible;
-    opacity: 1;
-  }
   
-  .cd-top--fade-out { 
+  /* .cd-top--fade-out { 
     opacity: .5;
-  }
+  } */
