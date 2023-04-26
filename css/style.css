@@ -978,6 +978,6 @@ color: #f55f8d;
     opacity: 1;
   }
   
-  /* .cd-top--fade-out { 
-    opacity: .5;
-  } */
+  .cd-top--fade-out { 
+    opacity: 0.8;
+  }
